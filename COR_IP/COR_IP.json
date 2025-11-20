@@ -1,0 +1,47 @@
+{
+  "KZ": 
+  [
+    {
+      "title": "Казахстанское Кино",
+      "description": "Казахстанское кино стало зарабатывать миллиарды и покорять новые рынки",
+      "image": "https://static.tengrinews.kz/userdata/article/2025/article_3371/thumb_b/photo_4770.jpg.webp",
+      "link": "https://tengrinews.kz/article/kazaxstanskoe-kino-stalo-zarabatyvat-milliardy-pokoriat-3371/"
+    },
+    {
+      "title": "Метели накроют почти весь Казахстан",
+      "description": "Синоптики Казгидромета представили прогноз погоды на 20, 21 и 22 ноября",
+      "image": "https://static.tengrinews.kz/userdata/news/2025/news_586040/thumb_b/photo_528457.jpg.webp",
+      "link": "https://tengrinews.kz/kazakhstan_news/meteli-nakroyut-pochti-ves-kazahstan-586040/"
+    }
+  ],
+  "RU": 
+  [
+    {
+      "title": "Ужасная Авария",
+      "description": "Сгорели заживо: три человека погибли в массовом ДТП в Краснодаре",
+      "image": "Abar.png",
+      "link": "https://www.1tv.ru/news/2025-11-19/526368-sgoreli_zazhivo_tri_cheloveka_pogibli_v_massovom_dtp_v_krasnodare"
+    },
+    {
+      "title": "Смерть олимпиского Чемпиона",
+      "description": "Умер олимпийский чемпион по стрельбе Евгений Петров, чемпиону Олимпиады-1968 было 87 лет",
+      "image": "https://cdn.ren.tv/cache/448x252/media/img/92/ea/92ea3b79bab67e381704d8b25de128b0a9f9a2d2.jpg",
+      "link": "https://ren.tv/news/v-rossii/1384173-umer-olimpiiskii-chempion-po-strelbe-evgenii-petrov"  
+    }
+  ],
+  "DEFAULT": 
+  [
+    {
+      "title": "5 баллов",
+      "description": "Подземные толчки до 5 баллов ощущались в Узбекистане",
+      "image": "https://static.tengrinews.kz/userdata/news/2025/news_584652/thumb_b/photo_526928.jpg.webp",
+      "link": "https://tengrinews.kz/world_news/podzemnyie-tolchki-do-5-ballov-oschuschalis-v-uzbekistane-584652/"
+    },
+    {
+      "title": "Месенджеры в Европе",
+      "description": "В Европе отказались от идеи сканирования личной переписки в мессенджерах",
+      "image": "https://static.tengrinews.kz/userdata/news/2025/news_584582/thumb_b/photo_526845.jpg.webp",
+      "link": "https://tengrinews.kz/world_news/evrope-otkazalis-idei-skanirovaniya-lichnoy-perepiski-584582/"
+    }
+  ]
+}

@@ -1,22 +1,33 @@
 body {
     background-color: rgb(249, 251, 255);
 }
-.d1 {
+header {
     font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
+    display: flex;
+    text-align: center;
 }
-.d1 button {
+header button {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
+    font-size: 30px;
     border-radius: 7px;
     background-color: rgb(255, 0, 0);
     color: rgb(249, 251, 255);
     border: 3px solid rgb(249, 251, 255);
 }
-.d1 button:hover {
+header button:hover {
     cursor: pointer;
     border-radius: 7px;
     background-color: rgb(249, 251, 255);
     color: rgb(255, 0, 0);
     border: 3px solid rgb(255, 0, 0);
+}
+.d2{
+    background-color: rgba(255, 139, 139, 0.219);
+    width: 3000px;
+    height: 1000px;
+}
+footer{
+    background-color: rgb(202, 49, 49);
+    color: rgb(228, 228, 228);
+    text-align: center;
 }

@@ -1,11 +1,11 @@
 function getLocation() {
     const output = document.getElementById("output");
-    if (navigator.geoLocation) {
+    if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
             (position) => {
-                const lat = position.coords.Latitude;
-                const lon = position.coords.Longitude;
-                const mapsLink = `https://maps.google.com/maps?q=${lat},${lon}`;
+                const lat = position.coords.latitude
+                const lon = position.coords.longitude;
+                const mapsLink = `https://www.google.com/maps?q=${lat},${lon}`;
 
                 output.innerHTML = `
                     <strong>Ваши координаты:</strong><br>
@@ -15,7 +15,7 @@ function getLocation() {
                 `;
             },
             () => {
-                output,textContent = "Не удалось получить координаты"
+                output.textContent = "Не удалось получить координаты";
             }
         );
     }

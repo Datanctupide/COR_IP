@@ -1,33 +1,68 @@
 body {
-    background-color: rgb(249, 251, 255);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
 }
+
 header {
-    font-family: Arial, Helvetica, sans-serif;
+    background: #1f6feb;
+    color: white;
+    padding: 15px;
     display: flex;
-    text-align: center;
+    justify-content: space-between;
+    align-items: center;
 }
+
 header button {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    border-radius: 7px;
-    background-color: rgb(255, 0, 0);
-    color: rgb(249, 251, 255);
-    border: 3px solid rgb(249, 251, 255);
-}
-header button:hover {
+    padding: 10px 15px;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    border-radius: 7px;
-    background-color: rgb(249, 251, 255);
-    color: rgb(255, 0, 0);
-    border: 3px solid rgb(255, 0, 0);
 }
-.d2{
-    background-color: rgba(255, 139, 139, 0.219);
-    width: 3000px;
-    height: 1000px;
+
+main {
+    padding: 20px;
 }
-footer{
-    background-color: rgb(202, 49, 49);
-    color: rgb(228, 228, 228);
+
+.ng {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.nc {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.nc img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.nc h3 {
+    margin-top: 10px;
+}
+
+.nc p {
+    color: #555;
+}
+
+.nc a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1f6feb;
+}
+
+.loading,
+.error {
+    margin: 20px 0;
+    font-size: 18px;
     text-align: center;
 }
+
+.hidden { display: none; }

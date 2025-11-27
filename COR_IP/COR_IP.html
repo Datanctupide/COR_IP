@@ -1,33 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GeoNews</title>
     <link rel="stylesheet" href="COR_IP.css">
 </head>
 <body>
-    <header>
-        <img>
-        <h1>Узнайте новости вашего региона</h1>
-        <button onclick="getLocation()">Nazhat</button>
-    </header>
 
-    <div class="d2">
-        <p id="output"></p>
-        <div class="d3" hidden>
-            <div class="bl1">
-            </div>
-            <div class="bl2">
-            </div>
-            <div class="bl3">
-            </div>
-        </div>
-    </div>
-    <footer>
-        <p>@Datan 2025    +69 696 969 69 69</p>
-    </footer>
+<header>
+    <h1>🌍 GeoNews</h1>
+    <button id="refreshLocation">Обновить местоположение</button>
+</header>
 
-    <script src="COR_IP.js"></script>
+<main>
+    <h2 id="locationTitle">Определяем местоположение...</h2>
+
+    <div id="newsContainer" class="ng"></div>
+
+    <div id="loading" class="loading hidden">Загрузка новостей...</div>
+    <div id="error" class="error hidden">Не удалось загрузить новости</div>
+</main>
+
+<script src="COR_IP.js"></script>
+
 </body>
 </html>
